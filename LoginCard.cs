@@ -91,7 +91,7 @@ namespace Deathlon
             }
 
             form.Controls.Add(panel);
-            //form.flashPlayer.SendToBack();
+            form.flashPlayer.SendToBack();
         }
 
         public void pic_Click(object sender, EventArgs e)

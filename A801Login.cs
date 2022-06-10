@@ -14,6 +14,7 @@ namespace Deathlon
         WebBrowser A801;
         LoginCard newCart;
         Panel panel;
+        Form Mainform;
 
         string pw = "";
         string user = "";
@@ -29,6 +30,7 @@ namespace Deathlon
 
         public A801Login(Form1 form, LoginCard cart)
         {
+            Mainform = form;
             newCart = cart;
  
             panel = new Panel();    
