@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<Obfuscator>
+  <Var name="InPath" value="." />
+  <Var name="OutPath" value=".\output" />
+  <Var name="KeepPublicApi" value="false" />
+  <Var name="HidePrivateApi" value="false" />
+  <Var name="RenameProperties" value="true" />
+  <Var name="RenameEvents" value="true" />
+  <Var name="RenameFields" value="true" />
+  <Var name="UseUnicodeNames" value="true" />
+  <Var name="HideStrings" value="true" />
+  <Var name="OptimizeMethods" value="false" />
+  <Var name="SuppressIldasm" value="false" />
+  <Module file="$(InPath)\input\Deathlon.exe" />
+</Obfuscator>
